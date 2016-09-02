@@ -1,0 +1,11 @@
+<h1>New Status</h1>
+
+<%= form_for @post do |f| %>
+	<%= f.label :Part_Number %><br>
+	<%= f.text_field :title %><br>
+	<br>
+	<%= f.label :Status %><br>
+	<%= f.text_area :body %><br>
+	<br>
+	<%= f.submit %>
+<% end %>
